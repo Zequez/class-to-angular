@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ClassToAngular example</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src='../class-to-directive.js'></script>
+    <script src='example-directive.js'></script>
+    <meta charset=utf-8 />
+  </head>
+  <body ng-app="ClassApp">
+
+    <banana-split>
+      {{isBanana}}
+      <br/>
+      {{isApple}}
+      <br/>
+      {{isOrange}}
+      <br/>
+      <button ng-click='callTheBananaKing()'>Call the banana king</button>
+    </banana-split>
+
+    <hr/>
+
+    <custom-directive-name>
+      {{isThisAmazing}}
+    </custom-directive-name>
+
+  </body>
+</html>
