@@ -58,7 +58,7 @@ The thing is, it shouldn't, since most of the extra processing is made on the st
 
 Live example
 ===============
-Want to see an example? Head to the example folder. Want to see it live. [Head to this link](http://jsbin.com/uTebeQoH/14/edit)
+Want to see an example? Head to the example folder. Want to see it live. [Head to this link](http://jsbin.com/uTebeQoH/17/edit)
 
 ToDo
 ===============
