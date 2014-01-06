@@ -57,7 +57,7 @@ Does it have a big performance impact? I don't think so! But I haven't tested ye
 The thing is, it shouldn't, since most of the extra processing is made on the startup of the application! If someone has a better and faster idea, please say so!
 
 Live example
-####################
+===============
 Want to see an example? Head to the example folder. Want to see it live. [Head to this link](http://jsbin.com/uTebeQoH/14/edit)
 
 ToDo
