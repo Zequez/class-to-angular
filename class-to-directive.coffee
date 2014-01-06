@@ -82,7 +82,7 @@ window.classToDirective = (constructor)->
     # We are actually not treating it as a `class`. But neither does
     # Angular use `prototype` for the scope, so there is no loss in
     # performance in that way. And no gain. I think.
-    constructor.apply(scope, element, attrs)
+    constructor.apply(scope, [element, attrs])
     
     # And now, we execute the old link function, in case you want to
     # do mysterious stuff.
