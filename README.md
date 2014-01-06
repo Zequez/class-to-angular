@@ -64,3 +64,5 @@ ToDo
 ===============
 - Make a script for controllers and the other stuff.
 - Make it work like `angular.module('ClassApp', []).classDirective BananaSplitDirective` which is nicer. 
+- Make a bower package
+- Tests
