@@ -5,7 +5,7 @@ ClassToAngular is a an ***experimental*** tool to use CoffeeScript classes to cr
 
 Instead of doing:
 
-```
+```coffeescript
 angular.module('ClassApp', []).directive 'bananaSplit', ($timeout)->
   restrict: 'E'
   link: (scope, element, attrs)->
@@ -24,7 +24,7 @@ It may look fine for now, but start to make a bigger app and your link function 
 Besides, it doesn't look Coffeescripty at all!
 Instead you can do:
 
-```
+```coffeescript
 class BananaSplitDirective
   @restrict: 'E'
   
@@ -56,6 +56,9 @@ Does it have a big performance impact? I don't think so! But I haven't tested ye
 
 The thing is, it shouldn't, since most of the extra processing is made on the startup of the application! If someone has a better and faster idea, please say so!
 
+Live example
+####################
+Want to see an example? Head to the example folder. Want to see it live. [Head to this link](http://jsbin.com/uTebeQoH/14/edit)
 
 ToDo
 ===============
